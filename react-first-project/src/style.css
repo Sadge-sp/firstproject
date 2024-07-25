@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+#about-us {
+padding: 20px;
+}
+#prices {
+background-color: #f0f0f0;
+padding: 20px;
+}
+.prices-container {
+display: flex;
+}
+.prices-card {
+background-color: #fff;
+margin: 20px;
+padding: 20px;
+width: calc(50% - 40px);
+vertical-align: top;
+}
+.project-card img {
+width: 100%;
+height: auto;
+max-width: 100%;
+border-radius: 30000px;
+margin-left: auto;
+margin-right: auto;
+}
+.project-card p {
+margin-left: 20px;
+}
+#comments {
+background-color: #f0f0f0;
+padding: 20px;
+}
+.comment-card {
+background-color: #fff;
+border: 1px solid #ddd;
+margin: 20px;
+padding: 20px;
+width: calc(50% - 20px);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: inline-block;
+}
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+clear: both;
+}
+footer a {
+color: #fff;
+text-decoration: none;
+}
